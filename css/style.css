@@ -1,0 +1,58 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    text-align: center;
+}
+
+
+.content
+{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button
+{
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: gray;
+    color: aliceblue;
+}
+
+button:hover
+{
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.content input
+{
+    width: 230px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.bigButton
+{
+    width: 120px;
+    border-radius: 10px;
+}
+
+.bigButton:hover
+{
+    background-color: red;
+}
